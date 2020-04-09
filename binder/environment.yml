@@ -10,3 +10,4 @@ dependencies:
 - kimpy>=0.3.3
 - qe
 - cp2k
+- lammps
