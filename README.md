@@ -15,6 +15,12 @@ Lattice Constant:
 Diffusion:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=diffusion.ipynb)
 
+Surface:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=surface.ipynb)
+
+Minima Hopping:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=minimahopping.ipynb)
+
 ## Codes
 ### CP2K
 energy: 
