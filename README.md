@@ -23,6 +23,24 @@ Surface (EMT):
 Minima Hopping (EMT):
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=06minimahopping.ipynb)
 
+Genetic Optimize (EMT):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=gaoptimize.ipynb)
+
+Genetic Algo FCC (EMT):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=08gafccalloys.ipynb)
+
+Dissociation (EMT):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=09dissociation.ipynb)
+
+Water (EMT):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=10tipnpequil.ipynb)
+
+Acetonitrile (EMT):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=11acnequil.ipynb)
+
+Wannier (GPAW):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=12wannier.ipynb)
+
 ## Codes
 Example interfaces to a wide range of codes, still most examples just discuss how to calculate energies. 
 ### CP2K
