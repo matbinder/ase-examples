@@ -6,44 +6,44 @@ All examples:
 A series of tutorials with documentation, to demonstrate different applications of ASE, mainly using the EMT code or GPAW:
 
 Atomization (EMT):
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=atomization.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=01atomization.ipynb)
 
 Equation of State (EMT): 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=eos.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=02eos.ipynb)
 
 Lattice Constant (GPAW):
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=lattice_constant.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=03lattice_constant.ipynb)
 
 Diffusion (EMT):
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=diffusion.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=04diffusion.ipynb)
 
 Surface (EMT):
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=surface.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=05surface.ipynb)
 
 Minima Hopping (EMT):
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=minimahopping.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=06minimahopping.ipynb)
 
 ## Codes
 Example interfaces to a wide range of codes, still most examples just discuss how to calculate energies. 
 ### CP2K
 energy: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=cp2k.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=20cp2k.ipynb)
 
 ### Gpaw
 energy: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=gpaw_energy.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=21gpawenergy.ipynb)
 
 bandstructure: 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=gpaw_bandstructure.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=22gpawbandstructure.ipynb)
 
 ### LAMMPS
 energy:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=lammps.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=23lammps.ipynb)
 
 ### Openkim
 energy:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=openkim.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=24openkim.ipynb)
 
 ### Quantum Espresso
 energy:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=quantumespresso.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=25quantumespresso.ipynb)

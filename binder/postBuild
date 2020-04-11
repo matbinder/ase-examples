@@ -1,4 +1,5 @@
 #!/bin/bash
 wget https://wiki.fysik.dtu.dk/gpaw-files/gpaw-setups-0.9.20000.tar.gz
 tar -xf gpaw-setups-0.9.20000.tar.gz
+mv gpaw-setups-0.9.20000 resources
 rm gpaw-setups-0.9.20000.tar.gz
