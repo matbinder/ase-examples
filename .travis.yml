@@ -12,5 +12,6 @@ install:
 - conda env update --name root --file binder/environment.yml
 - bash binder/postBuild
 script:
+- rm 10tipnpequil.ipynb  # remove notebooks which would take too long
 - i=0; for notebook in $(ls *.ipynb); do papermill ${notebook} ${notebook%.*}-out.${notebook##*.} -k "python3" || i=$((i+1)); done;
 - if [ $i -gt 0 ]; then travis_terminate 1; fi;
