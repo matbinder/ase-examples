@@ -10,6 +10,7 @@ install:
 - conda config --set always_yes yes --set changeps1 no
 - conda install -c conda-forge python=${PYTHONVER} papermill
 - conda env update --name root --file binder/environment.yml
+- mkdir ~/resources
 - bash binder/postBuild
 script:
 - rm 10tipnpequil.ipynb  # remove notebooks which would take too long
