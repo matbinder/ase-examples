@@ -8,7 +8,7 @@ install:
 - bash miniconda.sh -b -p $HOME/miniconda
 - conda info -a
 - conda config --set always_yes yes --set changeps1 no
-- conda install python=${PYTHONVER}
+- conda install python=${PYTHONVER} papermill
 - conda env update --name root --file binder/environment.yml
 - bash binder/postBuild
 script:
