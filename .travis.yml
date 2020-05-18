@@ -11,8 +11,9 @@ install:
 - conda install -c conda-forge python=${PYTHONVER} papermill
 - conda env update --name root --file binder/environment.yml
 - mkdir ~/resources
+- cp -r resources/espresso ~/resources
 - bash binder/postBuild
 script:
-- rm 10tipnpequil.ipynb 11acnequil.ipynb # remove notebooks which would take too long
+- rm 10tipnpequil.ipynb 11acnequil.ipynb 12wannier.ipynb # remove notebooks which would take too long
 - i=0; for notebook in $(ls *.ipynb); do papermill ${notebook} ${notebook%.*}-out.${notebook##*.} -k "python3" || i=$((i+1)); done;
 - if [ $i -gt 0 ]; then travis_terminate 1; fi;
