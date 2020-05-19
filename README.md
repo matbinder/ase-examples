@@ -1,4 +1,7 @@
 # ASE Examples
+Tests: 
+[![Build Status](https://travis-ci.com/jan-janssen/ase-examples.svg?branch=master)](https://travis-ci.com/jan-janssen/ase-examples)
+
 All examples: 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master)
 
