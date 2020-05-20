@@ -33,3 +33,4 @@ Example interfaces to a wide range of codes, still most examples just discuss ho
 | Energy        | LAMMPS           | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=23lammps.ipynb) |
 | Energy        | Openkim          | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=24openkim.ipynb) |
 | Energy        | Quantum Espresso | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=25quantumespresso.ipynb) |
+| Energy        | Siesta            | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jan-janssen/ase-examples/master?filepath=26siesta.ipynb) |
