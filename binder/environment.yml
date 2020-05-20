@@ -5,9 +5,10 @@ dependencies:
 - notebook
 - ase>=3.19.0
 - gpaw
-- kim-api>=2.1.3
-- openkimmodels>=2019.07.25
-- kimpy>=0.3.3
+- kim-api
+- openkimmodels
+- kimpy
 - qe
 - cp2k
 - lammps
+- siesta
