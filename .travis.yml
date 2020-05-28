@@ -6,13 +6,13 @@ install:
 - export PATH="$HOME/miniconda/bin:$PATH"
 - wget ${MINICONDA} -O miniconda.sh
 - bash miniconda.sh -b -p $HOME/miniconda
-- source activate
 - conda info -a
 - conda config --set always_yes yes --set changeps1 no
 - conda install -c conda-forge python=${PYTHONVER} papermill
 - conda env update --name root --file binder/environment.yml
 - mkdir ~/resources
 - cp -r resources/espresso ~/resources
+- source activate
 script:
 - rm 10tipnpequil.ipynb 11acnequil.ipynb 12wannier.ipynb 25quantumespresso.ipynb # remove notebooks which would take too long
 - i=0; for notebook in $(ls *.ipynb); do papermill ${notebook} ${notebook%.*}-out.${notebook##*.} -k "python3" || i=$((i+1)); done;
