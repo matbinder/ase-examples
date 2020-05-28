@@ -13,7 +13,7 @@ install:
 - mkdir ~/resources
 - cp -r resources/espresso ~/resources
 - source activate
+- for f in $(cat .ci_exclude_notebooks); do rm $f; done;  # remove notebooks which would take too long
 script:
-- rm 10tipnpequil.ipynb 11acnequil.ipynb 12wannier.ipynb 25quantumespresso.ipynb # remove notebooks which would take too long
 - i=0; for notebook in $(ls *.ipynb); do papermill ${notebook} ${notebook%.*}-out.${notebook##*.} -k "python3" || i=$((i+1)); done;
 - if [ $i -gt 0 ]; then travis_terminate 1; fi;
